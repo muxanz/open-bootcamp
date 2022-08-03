@@ -1,0 +1,10 @@
+.boton span::before {
+  content: "Pasa por encima";
+  font-size: 20px;
+}
+
+.boton span:hover::before {
+  color: white;
+  background-color: green;
+  content: "¡Hecho!";
+}
